@@ -12,14 +12,14 @@ return [
                 'host'       => 'smtp.163.com',
                 //'username'   => 'test@zhux2.com',   //测试号  上线后请修改
                 //'password'   => 'Zhuxun2017',
-                'username'   => '13544308369@163.com',   //测试号  上线后请修改
-                'password'   => 'shijy0706',
+                'username'   => '********@163.com',   //测试号  上线后请修改
+                'password'   => '******',//邮箱上设置的授权码
                 'port'       => '25',
                 'encryption' => 'tls',
             ],
             'messageConfig' => [
                 'charset' => 'UTF-8',
-                'from'    => ['13544308369@163.com' => '测试邮箱发送']
+                'from'    => ['********@163.com' => '测试邮箱发送']
             ],
         ],
 ];
